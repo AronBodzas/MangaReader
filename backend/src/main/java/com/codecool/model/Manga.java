@@ -25,6 +25,7 @@ public class Manga {
     private List<Chapter> chapterList;
     private String coverPage;
     private LocalDate startDate;
+    private String authorName;
 
 
 }
