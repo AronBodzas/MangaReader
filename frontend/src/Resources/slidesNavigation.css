@@ -1,0 +1,58 @@
+.slides-navigation-area{
+    padding: 8px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.click-area{
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.click-icon{
+    width: 24px;
+    height: 24px;
+    border-radius: 8px;
+}
+
+.indicator-area{
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navigation-gap{
+    width: 8px;
+}
+
+.indicator{
+    opacity: 0.50;
+    width: 12px;
+    height: 12px;
+}
+
+.indicator-img{
+    width: 12px; height: 12px; background-color: rgba(153, 153, 153, 1); border-radius: 9999px;
+}
+
+.indicator-gap{
+    width: 10px;
+}
+
+.current-indicator{
+    width: 16px; height: 16px;
+}
+
+.current-indicator-img{
+    width: 16px;
+    height: 16px;
+    background-color: rgba(123, 97, 255, 1);
+    border-radius: 9999px;
+}
