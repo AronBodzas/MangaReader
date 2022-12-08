@@ -1,0 +1,92 @@
+.carousel-area{
+    width: 100%;
+    height: 200px;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.carousel-img-box{
+    width: 100%;
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.carousel-img-area{
+    width: 1428px;
+    height: 100%;
+    padding-left: 104px;
+    padding-right: 104px;
+    padding-top: 56px;
+    padding-bottom: 97px;
+    background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.50) 12%, black 23%, black 51%, black 79%, rgba(0, 0, 0, 0.50) 88%, rgba(196, 196, 196, 0));
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.carousel-slides-area{
+    width: 1220px;
+    height: 50px;
+    position: relative;
+    /*height: 400px;*/
+}
+
+.carousel-slide{
+    width: 130px; height: 170px;
+    left: 240px;
+    position: absolute;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.second{
+    /*width: 480px;*/
+    /*height: 240px;*/
+    left: 850px;
+    /*position: absolute;*/
+    /*background-color: white;*/
+    /*border-radius: 40px;*/
+}
+
+.third{
+    width: 100px; height: 220px;
+    left: 350px;
+}
+
+.fourth{
+    width: 100px; height: 220px;
+    left: 700px;
+
+}
+
+.fifth{
+    width: 100px; height: 300px; left: 490px;
+}
+
+.small-img{
+    width: 130px; height: 170px;
+}
+
+.medium-img{
+
+    width: 170px; height: 220px;
+
+}
+
+.big-img{
+
+    width: 240px; height: 300px;
+
+}
+
+.break{
+    height: 24px;
+}
