@@ -106,7 +106,7 @@
 .read-button-text{
     font-size: 24px;
     font-weight: 600;
-    line-height: 110%;
+    line-height: 0;
     text-align: center;
     color: rgba(252.45, 251.37, 249.93, 1);
 }
