@@ -1,4 +1,4 @@
 package com.codecool.model;
 
-public enum ProducStatus {
+public enum MangaStatus {
 }

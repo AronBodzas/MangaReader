@@ -15,13 +15,13 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Product {
+public class Manga {
     @Id
     @Column(name = "id", nullable = false)
     private Long id;
     private String title;
     private int length;
-    @OneToMany(mappedBy = "product")
+    @OneToMany(mappedBy = "manga")
     private List<Chapter> chapterList;
     private String coverPage;
     private LocalDate startDate;

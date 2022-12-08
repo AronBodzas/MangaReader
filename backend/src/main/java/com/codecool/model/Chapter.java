@@ -23,6 +23,6 @@ public class Chapter {
     @OneToMany(mappedBy = "chapter")
     private List<Comment> commentList;
     @ManyToOne
-    private Product product;
+    private Manga manga;
 
 }
